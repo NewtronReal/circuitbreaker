@@ -1,0 +1,166 @@
+html, body{
+  width:100%;
+  height:100%;
+  padding:0;
+  margin:0;
+  overflow:hidden;
+}
+
+.container{
+  width:100%;
+  height:100%;
+  background-color:black;
+  display:flex;
+  flex-flow:row;
+}
+
+.circuit{
+  height:70%;
+  width:100%;
+  display:flex;
+  flex-flow:row;
+}
+
+.circuitdiagram{
+  height:100%;
+  flex:1;
+}
+
+.restart{
+  position:fixed;
+  bottom:34%;
+  left:2%;
+  background-color:purple;
+  color:white;
+  font-size:24px;
+  width:40px;
+  height:40px;
+  border-radius:20px;
+  text-align:center;
+  justify-content:center;
+  cursor:pointer;
+  z-index: 2;
+}
+
+.test{
+  width:100px;
+  height:100px;
+  border:1px solid black;
+}
+
+.terminal{
+  width:100%;
+  height:30%;
+  overflow-y:scroll;
+  background-color:grey;
+  display:flex;
+  flex-flow:column;
+  color:white;
+  padding:5px;
+}
+
+.terminaloutput{
+  width:100%;
+  height:max-content;
+  color:white;
+  padding:5px;
+}
+
+.inputrow{
+  color:white;
+  display:flex;
+  flex-flow:row;
+}
+
+.terminalinput{
+  background-color:transparent;
+  border:none;
+  outline:none;
+  color:white;
+}
+
+.terminalinput:focus{
+  color:white;
+  outline:none;
+  border:none;
+  flex:1;
+}
+
+.diagram{
+  width:70%;
+  background-color:white;
+  height:100%;
+  display:flex;
+  flex-flow:column;
+  overflow:hidden;
+}
+
+.system{
+  width:30%;
+  background-color:white;
+  height:100%;
+  display:flex;
+  flex-flow:column;
+  border:1px solid black;
+}
+
+.system-elem{
+  border:1px solid black;
+  width:100%;
+}
+
+.pcontainer{
+  flex:1;
+  display:flex;
+  flex-flow:row;
+  overflow-y:scroll;
+}
+
+.psidepanel{
+  height:100%;
+  background-color: grey;
+  color:white;
+  font-family:Arial, Helvetica, sans-serif;
+  display:flex;
+  flex:1;
+  flex-flow:column;
+  gap:7px;
+  padding:4px;
+  overflow-y:scroll;
+}
+
+.pcontent{
+  height:100%;
+  background-color:rgb(58, 58, 58);
+  color:white;
+  flex:2;
+  display:flex;
+  flex-flow:column;
+  padding:5px;
+  overflow-y:scroll;
+}
+
+.outputterm{
+  height:30%;
+  background-color:black;
+  padding:5px;
+}
+
+.mainp{
+  flex:1;
+  width:100%;
+  display:flex;
+  flex-flow:column;
+  overflow-y:scroll;
+}
+
+.bottompanel{
+  padding:10px;
+  background-color:rgb(56, 56, 56);
+}
+
+input[type="button"]{
+  margin-right:20px;
+  width:20%;
+  padding:5px;
+}

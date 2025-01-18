@@ -1,0 +1,16 @@
+.board{
+    width:100px;
+    height:100px;
+    background-color:rgb(27, 95, 0);
+    border-radius:3px;
+    border:1px solid black;
+}
+
+.test{
+    width:10px;
+    height:10px;
+    background-color: black;
+    position:absolute;
+    top:442px;
+    left:148px;
+}

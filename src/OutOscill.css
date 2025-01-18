@@ -1,0 +1,47 @@
+.ttl{
+    height:35%;
+    display:flex;
+    flex-flow:column;
+}
+
+.option{
+    height:30px;
+    width:30px;
+    border-radius:5px;
+    border:1px solid black;
+}
+
+.options{
+    display:flex;
+    flex-flow:row;
+    gap:5px;
+    padding:5px;
+    border:1px solid black;
+}
+
+.viewbox{
+    flex:1;
+}
+
+.outputcontainer{
+    background-color: black;
+    overflow:scroll;
+    display:flex;
+}
+
+.oscilloscopecontainer{
+    display:flex;
+    flex-flow:row;
+}
+
+.oscillo{
+    flex:1;
+}
+.pinprops{
+    flex:1;
+    display:flex;
+    flex-flow:column;
+    gap:2px;
+    padding:5px;
+}
+

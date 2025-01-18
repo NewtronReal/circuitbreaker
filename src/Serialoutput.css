@@ -1,0 +1,36 @@
+.scontainer{
+    padding:5px;
+    width:100%;
+    flex:1;
+    display:flex;
+    flex-flow:column;
+    overflow-y:scroll;
+}
+
+.outputdiv{
+    display:flex;
+    flex-flow:row;
+    width:100%;
+    color:white;
+}
+
+input[type="text"]{
+    float:none;
+    background-color: transparent;
+    color:white;
+    border:none;
+    width:100%;
+    outline:none;
+}
+
+input[type="text"]:focus{
+    border:none;
+    outline:none;
+}
+
+span{
+    flex:1;
+    display: block;
+    overflow: hidden;
+    padding-right:10px;
+}
